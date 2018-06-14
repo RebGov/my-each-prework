@@ -13,7 +13,7 @@ end
 
 collection = [1, 2, 3, 4]
 my_each(collection) do |i|
-  i * 2
+  puts i * 2
 end
 
 #output is [1, 2, 3, 4]
